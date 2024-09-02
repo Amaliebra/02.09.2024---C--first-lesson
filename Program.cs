@@ -19,7 +19,7 @@ class Program
         Console.WriteLine("Hei" + navn);
         
         char a = '@';
-        char b = 'B';
-        Console.WriteLine(a + b);
+
+        Console.WriteLine(a);
     }
 }
