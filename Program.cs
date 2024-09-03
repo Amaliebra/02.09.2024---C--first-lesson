@@ -17,9 +17,22 @@ class Program
         Console.WriteLine("Hei, hva heter du?");
         string? navn = Console.ReadLine();
         Console.WriteLine("Hei" + navn);
-        
-        char a = '@';
 
+        char a = '@';
         Console.WriteLine(a);
+
+        string[] myStringArray = { "hello", "c#", "array!" };
+        for (int i = 0; i < myStringArray.Length; i++)
+        {
+            Console.WriteLine(myStringArray[i]);
+        }
+        List<int> myNumbers = new List<int>();
+        myNumbers.Add(1);
+        myNumbers.Add(2);
+        myNumbers.Add(3);
+        for (int i = 0; i < myNumbers.Count(); i++)
+        {
+            foreach (string strings in myStringArray)
+        }
     }
 }
